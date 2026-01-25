@@ -1,9 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import langArrow from "../../assets/img/header/langArrow/arrow-ico.svg";
 function Lang({ toggle, swichLang }) {
   const { i18n } = useTranslation();
   const curretLang = i18n.language ? i18n.language.split("-")[0] : "az";
+
+  const [arrowUp, setArrowUp] = useState(false);
 
   useEffect(() => {
     if (localStorage.getItem("i18nextLng") !== curretLang) {
@@ -12,17 +14,25 @@ function Lang({ toggle, swichLang }) {
   }, [curretLang]);
   return (
     <>
-      <div className="relative text-black">
-        <div className="flex items-center cursor-pointer" onClick={toggle}>
+      <div onClick={() => setArrowUp(!arrowUp)} className="relative text-black">
+        <div
+          className="flex gap-[9px] items-center cursor-pointer"
+          onClick={toggle}
+        >
           <button
-            className="text-[#ffffff] lowercase text-[1.4rem]"
+            className="text-[#002755] lowercase text-[1.4rem]"
             name="button"
             type="button"
           >
-            {curretLang} {/* Отображение текущего языка */}
+            {curretLang}
           </button>
+          <img
+            className={`.lang-arrow-up ${arrowUp ? "lang-arrow-down" : ""}`}
+            src={langArrow}
+            alt="arrow"
+          />
         </div>
-        {swichLang} {/* Элемент для переключения языка */}
+        {swichLang}
       </div>
     </>
   );

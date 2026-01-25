@@ -2,31 +2,33 @@
   "header": {
     "headerLogo": {
       "src": "./src/assets/img/header/headerLogo/headerlogo-img.svg",
-      "alt_az": "logo",
-      "alt_ru": "логотип",
-      "alt_en": "logo"
+      "alt": "logo"
     },
     "headerLinks": [
       {
         "id": 1,
+        "to": "/",
         "link_az": "Ana Səhifə",
         "link_ru": "Главная",
         "link_en": "Home"
       },
       {
         "id": 2,
+        "to": "/about",
         "link_az": "Haqqımızda",
         "link_ru": "О нас",
         "link_en": "About Us"
       },
       {
         "id": 3,
+        "to": "/services",
         "link_az": "Xidmətlər",
         "link_ru": "Услуги",
         "link_en": "Services"
       },
       {
         "id": 4,
+        "to": "/contact",
         "link_az": "Əlaqə",
         "link_ru": "Контакты",
         "link_en": "Contact"
@@ -358,30 +360,32 @@
   },
   "footer": {
     "footerLogo": {
-      "src": "./src/assets/img/footer/footerLogo/footerlogo-img.svg",
-      "alt_az": "logo",
-      "alt_ru": "логотип",
-      "alt_en": "logo"
+      "src": "./src/assets/img/footer/footerLogo-img.svg",
+      "alt": "logo"
     },
     "footerSocial": [
       {
         "id": 1,
         "src": "./src/assets/img/footer/facebook-img.svg",
+        "to": "/",
         "alt": "facebook"
       },
       {
         "id": 2,
         "src": "./src/assets/img/footer/linkedin-img.svg",
+        "to": "/",
         "alt": "linkedin"
       },
       {
         "id": 3,
         "src": "./src/assets/img/footer/youtube-img.svg",
+        "to": "/",
         "alt": "youtube"
       },
       {
         "id": 3,
         "src": "./src/assets/img/footer/instagram-img.svg",
+        "to": "/",
         "alt": "instagram"
       }
     ],

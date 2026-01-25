@@ -11,3 +11,15 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+.active {
+  color: #0355b4;
+}
+
+.lang-arrow-down {
+  transform: rotate(270deg);
+}
+
+.lang-arrow-up {
+  transform: rotate(190deg);
+}
