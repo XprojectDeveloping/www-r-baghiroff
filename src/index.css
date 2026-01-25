@@ -23,3 +23,14 @@ img {
 .lang-arrow-up {
   transform: rotate(190deg);
 }
+
+.banner-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #394656;
+  mix-blend-mode: hard-light;
+}
