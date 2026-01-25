@@ -1,0 +1,392 @@
+{
+  "header": {
+    "headerLogo": {
+      "src": "./src/assets/img/header/headerLogo/headerlogo-img.svg",
+      "alt_az": "logo",
+      "alt_ru": "логотип",
+      "alt_en": "logo"
+    },
+    "headerLinks": [
+      {
+        "id": 1,
+        "link_az": "Ana Səhifə",
+        "link_ru": "Главная",
+        "link_en": "Home"
+      },
+      {
+        "id": 2,
+        "link_az": "Haqqımızda",
+        "link_ru": "О нас",
+        "link_en": "About Us"
+      },
+      {
+        "id": 3,
+        "link_az": "Xidmətlər",
+        "link_ru": "Услуги",
+        "link_en": "Services"
+      },
+      {
+        "id": 4,
+        "link_az": "Əlaqə",
+        "link_ru": "Контакты",
+        "link_en": "Contact"
+      }
+    ],
+    "headerSearchIco": {
+      "src": "./src/assets/img/header/searchIco/searchIco-img.svg",
+      "alt_az": "axtarış ikonu",
+      "alt_ru": "иконка поиска",
+      "alt_en": "search icon"
+    }
+  },
+  "homeBanner": [
+    {
+      "id": 1,
+      "src": "./src/assets/img/body/homepage/homePageBanner/homePageBanner-img.png",
+      "alt_az": "Banner",
+      "alt_ru": "Баннер",
+      "alt_en": "Banner",
+      "title_az": "Sizin böyüməniz bizim təcrübəmizdir.",
+      "title_ru": "Ваш рост – наша экспертиза.",
+      "title_en": "Your growth, our expertise.",
+      "upLogo": "./src/assets/img/body/homepage/homePageBanner/homepageBannerLogo.svg",
+      "title2_az": "Lorem Ipsum is simply dummy text of the printing.",
+      "title2_ru": "Lorem Ipsum is simply dummy text of the printing.",
+      "title2_en": "Lorem Ipsum is simply dummy text of the printing.",
+      "text_az": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "text_ru": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "text_en": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  ],
+  "homePageAbout": {
+    "title_az": "Baghiroff Consulting in numbers",
+    "title_ru": "Baghiroff Consulting в цифрах",
+    "title_en": "Baghiroff Consulting in numbers",
+    "text_az": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "text_ru": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "text_en": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "aboutCard1": [
+      {
+        "id": 1,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "title_number": "3+",
+        "text_az": "il təcrübə",
+        "text_ru": "года опыта",
+        "text_en": "years of experience"
+      },
+      {
+        "id": 2,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "title_number": "150+",
+        "text_az": "əməkdaş",
+        "text_ru": "сотрудников",
+        "text_en": "employees"
+      },
+      {
+        "id": 3,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "title_number": "24+",
+        "text_az": "xidmət",
+        "text_ru": "услуги",
+        "text_en": "services"
+      },
+      {
+        "id": 4,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "title_number": "1500+",
+        "text_az": "müştəri",
+        "text_ru": "клиентов",
+        "text_en": "clients"
+      }
+    ]
+  },
+  "homePageAbout2": {
+    "title_az": "Tərəfdaşlarımız",
+    "title_ru": "Наши партнёры",
+    "title_en": "Our partners",
+    "text_az": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "text_ru": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "text_en": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "aboutCard2": [
+      {
+        "id": 1,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+      },
+      {
+        "id": 2,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+      },
+      {
+        "id": 3,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+      },
+      {
+        "id": 4,
+        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+      }
+    ]
+  },
+  "services": {
+    "title_az": "Xidmətlərimizlə tanış olun!",
+    "title_ru": "Познакомьтесь с нашими услугами!",
+    "title_en": "Get to know our services!",
+    "text_az": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "text_ru": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "text_en": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "servicesCards": [
+      {
+        "id": 1,
+        "title_az": "Tam mühasibat uçotu xidməti",
+        "title_ru": "Полный бухгалтерский учет",
+        "title_en": "Full accounting service",
+        "text_az": "İlkin uçot sənədləri əsasında mühasibatlığın qurulması və aparılması",
+        "text_ru": "Создание и ведение бухгалтерского учета на основе первичных учетных документов",
+        "text_en": "Establishment and maintenance of accounting based on primary accounting documents",
+        "link_az": "Ətraflı",
+        "link_ru": "Подробнее",
+        "link_en": "More",
+        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+      },
+      {
+        "id": 2,
+        "title_az": "Vergi uçotu və hesabatların hazırlanması",
+        "title_ru": "Налоговый учет и подготовка отчетности",
+        "title_en": "Tax accounting and reporting",
+        "text_az": "Vergi hesabatlarının qaununvericiliyə uyğun hazırlanması və təqdim edilməsi",
+        "text_ru": "Подготовка и представление налоговой отчетности в соответствии с законодательством",
+        "text_en": "Tax planning and optimization in accordance with tax legislation",
+        "link_az": "Ətraflı",
+        "link_ru": "Подробнее",
+        "link_en": "More",
+        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+      },
+      {
+        "id": 3,
+        "title_az": "Vergi problemlərinin həlli və hüquqi dəstək",
+        "title_ru": "Решение налоговых проблем и юридическая поддержка",
+        "title_en": "Tax problem solving and legal support",
+        "text_az": "Artıq hesablanmış vergi məbləğlərinin silinməsi və geri qaytarılması",
+        "text_ru": "Удаление и возврат уже начисленных налоговых сумм",
+        "text_en": "Elimination and refund of already assessed tax amounts",
+        "link_az": "Ətraflı",
+        "link_ru": "Подробнее",
+        "link_en": "More",
+        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+      },
+      {
+        "id": 4,
+        "title_az": "Audit xidməti",
+        "title_ru": "Аудиторские услуги",
+        "title_en": "Audit services",
+        "text_az": "Mühasibat hesabatlarının düzgünlüyünün yoxlanılması",
+        "text_ru": "Проверка правильности бухгалтерской отчетности",
+        "text_en": "Checking the accuracy of accounting reports",
+        "link_az": "Ətraflı",
+        "link_ru": "Подробнее",
+        "link_en": "More",
+        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+      },
+      {
+        "id": 5,
+        "title_az": "HR (İnsan resursları) xidmətləri",
+        "title_ru": "Услуги по управлению персоналом (HR)",
+        "title_en": "HR services",
+        "text_az": "Əmək haqqı cədvəllərinin və məzuniyyət planlarının hazırlanması",
+        "text_ru": "Подготовка табелей и планов отпусков",
+        "text_en": "Preparation of payroll tables and vacation plans",
+        "link_az": "Ətraflı",
+        "link_ru": "Подробнее",
+        "link_en": "More",
+        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+      },
+      {
+        "id": 6,
+        "title_az": "Elektron hökumət və onlayn əməliyyatlar",
+        "title_ru": "Электронное правительство и онлайн-операции",
+        "title_en": "E-government and online operations",
+        "text_az": "e-taxes.gov.az, e-sosial.az, e-gov.az, e-csotum, əmas portallarında əməliyyatların aparılması",
+        "text_ru": "Выполнение операций на порталах e-taxes.gov.az, e-sosial.az, e-gov.az, e-csotum, əmas",
+        "text_en": "Performing operations on the portals e-taxes.gov.az, e-sosial.az, e-gov.az, e-csotum, əmas",
+        "link_az": "Ətraflı",
+        "link_ru": "Подробнее",
+        "link_en": "More",
+        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+      }
+    ]
+  },
+  "serviceSingle": {
+    "title_az": "Tam mühasibat uçotu xidməti",
+    "title_ru": "Полный бухгалтерский учет",
+    "title_en": "Full accounting service",
+    "servicesSingleBanner": "./src/assets/img/body/servicesSingle/banner.png",
+    "text_az": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "text_ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "text_en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "cardTitle_az": "Üstünlüyümü:",
+    "cardTitle_ru": "Наши преимущества",
+    "cardTitle_en": "Our advantages",
+    "cards": [
+      {
+        "id": 1,
+        "title_az": "Lorem Ipsum",
+        "title_ru": "Lorem Ipsum",
+        "title_en": "Lorem Ipsum",
+        "text_az": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      {
+        "id": 2,
+        "title_az": "Lorem Ipsum",
+        "title_ru": "Lorem Ipsum",
+        "title_en": "Lorem Ipsum",
+        "text_az": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      {
+        "id": 3,
+        "title_az": "Lorem Ipsum",
+        "title_ru": "Lorem Ipsum",
+        "title_en": "Lorem Ipsum",
+        "text_az": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      {
+        "id": 4,
+        "title_az": "Lorem Ipsum",
+        "title_ru": "Lorem Ipsum",
+        "title_en": "Lorem Ipsum",
+        "text_az": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text_en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      }
+    ],
+    "cardTitle2_az": "Statistika",
+    "cardTitle2_ru": "Статистика",
+    "cardTitle2_en": "Statistics",
+    "cards2": [
+      {
+        "id": 1,
+        "title_number": "3+",
+        "text_az": "il təcrübə",
+        "text_ru": "года опыта",
+        "text_en": "years of experience"
+      },
+      {
+        "id": 2,
+        "title_number": "150+",
+        "text_az": "əməkdaş",
+        "text_ru": "сотрудников",
+        "text_en": "employees"
+      },
+      {
+        "id": 3,
+        "title_number": "24+",
+        "text_az": "xidmət",
+        "text_ru": "услуги",
+        "text_en": "services"
+      },
+      {
+        "id": 4,
+        "title_number": "1500+",
+        "text_az": "müştəri",
+        "text_ru": "клиентов",
+        "text_en": "clients"
+      }
+    ],
+    "title2_az": "Digər xidmətlər",
+    "title2_ru": "Другие услуги",
+    "title2_en": "Other services",
+    "button_az": "Bütün xidmətlər",
+    "button_ru": "Все услуги",
+    "button_en": "All services",
+    "button_arrow": "./src/assets/img/body/servicesSingle/arrow.svg"
+  },
+  "contact": {
+    "title_az": "Bizimlə Əlaqə",
+    "title_ru": "Связаться с нами",
+    "title_en": "Contact Us",
+    "text_az": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "text_ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "text_en": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "images": [
+      {
+        "id": 1,
+        "src": "./src/assets/img/body/contact/contact-img.svg",
+        "alt": "phone"
+      },
+      {
+        "id": 2,
+        "src": "./src/assets/img/body/contact/contact-img2.svg",
+        "alt": "phone"
+      },
+      {
+        "id": 3,
+        "src": "./src/assets/img/body/contact/contact-img3.svg",
+        "alt": "phone"
+      }
+    ],
+    "contactImg": "./src/assets/img/body/contact/contact-img.png",
+    "title2_az": "Bizə müraciət et!",
+    "title2_ru": "Свяжитесь с нами!",
+    "title2_en": "Contact us!",
+    "text2_az": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "text2_ru": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "text2_en": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "contactOption": [
+      {
+        "id": 1,
+        "option_az": "Tam mühasibat uçotu xidməti",
+        "option_ru": "Полный бухгалтерский учет",
+        "option_en": "Full accounting service"
+      },
+      {
+        "id": 2,
+        "option_az": "Vergi uçotu və hesabatların hazırlanması",
+        "option_ru": "Налоговый учет и подготовка отчетности",
+        "option_en": "Tax accounting and report preparation"
+      },
+      {
+        "id": 3,
+        "option_az": "Vergi problemlərinin həlli və hüquqi dəstək",
+        "option_ru": "Решение налоговых проблем и юридическая поддержка",
+        "option_en": "Tax problem solving and legal support"
+      }
+    ]
+  },
+  "footer": {
+    "footerLogo": {
+      "src": "./src/assets/img/footer/footerLogo/footerlogo-img.svg",
+      "alt_az": "logo",
+      "alt_ru": "логотип",
+      "alt_en": "logo"
+    },
+    "footerSocial": [
+      {
+        "id": 1,
+        "src": "./src/assets/img/footer/facebook-img.svg",
+        "alt": "facebook"
+      },
+      {
+        "id": 2,
+        "src": "./src/assets/img/footer/linkedin-img.svg",
+        "alt": "linkedin"
+      },
+      {
+        "id": 3,
+        "src": "./src/assets/img/footer/youtube-img.svg",
+        "alt": "youtube"
+      },
+      {
+        "id": 3,
+        "src": "./src/assets/img/footer/instagram-img.svg",
+        "alt": "instagram"
+      }
+    ],
+    "title2_az": "Bütün hüquqlar qorunur. Baghiroff Consulting 2025.",
+    "title2_ru": "Все права защищены. Baghiroff Consulting 2025.",
+    "title2_en": "All rights reserved. Baghiroff Consulting 2025."
+  }
+}
