@@ -34,3 +34,26 @@ img {
   background-color: #394656;
   mix-blend-mode: hard-light;
 }
+
+.servis-card {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  color: #011e41;
+}
+
+.servis-card:hover {
+  background-color: #03a0e2;
+  color: #ffffff;
+}
+
+.servis-card:hover img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7470%)
+    hue-rotate(67deg) brightness(108%) contrast(110%);
+}
+
+.servis-card:hover h3,
+.servis-card:hover p,
+.servis-card:hover a {
+  color: #ffffff !important;
+}

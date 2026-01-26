@@ -4,6 +4,7 @@ import { getMultiLang as ml } from "../components/Language/translation/Multilang
 import HomePageServices from "../components/Sections/HomePageServices.jsx";
 function HomePage() {
   const { data } = UseGlobalFetch();
+
   return (
     <>
       <main>
@@ -34,10 +35,16 @@ function HomePage() {
         <section className="bg-[#002756]">
           {data?.homePageAbout && (
             <HomePageServices
+              dataServices={data?.services?.servicesCards}
               title={ml(
                 data?.services?.title_az || "",
                 data?.services?.title_ru || "",
                 data?.services?.title_en || "",
+              )}
+              text={ml(
+                data?.services?.text_az || "",
+                data?.services?.text_ru || "",
+                data?.services?.text_en || "",
               )}
             />
           )}
