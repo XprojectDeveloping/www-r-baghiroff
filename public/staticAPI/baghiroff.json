@@ -49,7 +49,7 @@
     "title_en": "Your growth, our expertise.",
     "upLogo": "./src/assets/img/body/homepage/homePageBanner/homepageBannerLogo.svg",
     "upLogoAlt": "logo",
-    "title2_az": "Biz işgüzar ambisiyaları sınaqdan keçirilmiş strategiyalar və heç bir bəhanə olmadan miqyaslandırırıq.",
+    "title2_az": "Biz işgüzar ambisiyaları sınaqdan keçirilmiş strategiyalar.",
     "title2_ru": "Мы помогаем амбициозным бизнесам расти — с рабочими стратегиями и без лишних слов.",
     "title2_en": "We scale ambitious businesses with proven strategies and zero excuses.",
     "text_az": "Biz ambisiyalı və böyüməyə hazır şirkətlərə marketinq, satış və əməliyyat effektivliyi sahəsində sınaqdan keçirilmiş, nəticəyönümlü strategiyalar vasitəsilə 12–24 ay ərzində gəlirlərini 30–150% artırmağa kömək edirik.",
@@ -66,7 +66,8 @@
     "aboutCard1": [
       {
         "id": 1,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "alt": "icon",
         "title_number": "3+",
         "text_az": "il təcrübə",
         "text_ru": "года опыта",
@@ -74,7 +75,8 @@
       },
       {
         "id": 2,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "alt": "icon",
         "title_number": "150+",
         "text_az": "əməkdaş",
         "text_ru": "сотрудников",
@@ -82,7 +84,8 @@
       },
       {
         "id": 3,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "alt": "icon",
         "title_number": "24+",
         "text_az": "xidmət",
         "text_ru": "услуги",
@@ -90,7 +93,8 @@
       },
       {
         "id": 4,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "alt": "icon",
         "title_number": "1500+",
         "text_az": "müştəri",
         "text_ru": "клиентов",
@@ -108,19 +112,23 @@
     "aboutCard2": [
       {
         "id": 1,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "alt": "partner"
       },
       {
         "id": 2,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "alt": "partner"
       },
       {
         "id": 3,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "alt": "partner"
       },
       {
         "id": 4,
-        "cardImg": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg"
+        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "alt": "partner"
       }
     ]
   },
@@ -383,12 +391,12 @@
       {
         "id": 2,
         "src": "./src/assets/img/body/contact/contact-img2.svg",
-        "alt": "phone"
+        "alt": "email"
       },
       {
         "id": 3,
-        "src": "./src/assets/img/body/contact/contact-img3.svg",
-        "alt": "phone"
+        "src": "./src/assets/img/body/contact/contact-img2.svg",
+        "alt": "email"
       }
     ],
     "contactImg": "./src/assets/img/body/contact/contact-img.png",

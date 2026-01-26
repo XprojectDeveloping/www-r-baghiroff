@@ -1,7 +1,9 @@
 import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch.jsx";
-import HomePageBanner from "../components/Sections/HomePageBanner.jsx";
+import HomePageBanner from "../components/Sections/HomePage/HomePageBanner.jsx";
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
-import HomePageServices from "../components/Sections/HomePageServices.jsx";
+import HomePageServices from "../components/Sections/HomePage/HomePageServices.jsx";
+import HomePageAbout from "../components/Sections/HomePage/HomePageAbout.jsx";
+import HomePageAboutTwo from "../components/Sections/HomePage/HomePageAboutTwo.jsx";
 function HomePage() {
   const { data } = UseGlobalFetch();
 
@@ -46,6 +48,42 @@ function HomePage() {
                 data?.services?.text_ru || "",
                 data?.services?.text_en || "",
               )}
+            />
+          )}
+        </section>
+
+        <section>
+          {data?.homePageAbout && (
+            <HomePageAbout
+              title={ml(
+                data?.homePageAbout.title_az || "",
+                data?.homePageAbout.title_ru || "",
+                data?.homePageAbout.title_en || "",
+              )}
+              text={ml(
+                data?.homePageAbout.text_az || "",
+                data?.homePageAbout.text_ru || "",
+                data?.homePageAbout.text_en || "",
+              )}
+              dataCard={data?.homePageAbout?.aboutCard1}
+            />
+          )}
+        </section>
+
+        <section>
+          {data?.homePageAbout2 && (
+            <HomePageAboutTwo
+              title={ml(
+                data?.homePageAbout2.title_az || "",
+                data?.homePageAbout2.title_ru || "",
+                data?.homePageAbout2.title_en || "",
+              )}
+              text={ml(
+                data?.homePageAbout2.text_az || "",
+                data?.homePageAbout2.text_ru || "",
+                data?.homePageAbout2.text_en || "",
+              )}
+              dataCard={data?.homePageAbout2?.aboutCard2}
             />
           )}
         </section>

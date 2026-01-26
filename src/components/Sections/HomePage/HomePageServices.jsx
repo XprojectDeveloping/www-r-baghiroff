@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { getMultiLang as ml } from "../../components/Language/translation/Multilang.js";
+import { getMultiLang as ml } from "../../Language/translation/Multilang.js";
 function HomePageServices({ title, text, dataServices }) {
   return (
     <>

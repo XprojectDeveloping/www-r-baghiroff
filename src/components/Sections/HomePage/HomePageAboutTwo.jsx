@@ -1,0 +1,30 @@
+function HomePageAboutTwo({ title, text, dataCard }) {
+  return (
+    <>
+      <div className="max-w-[1200px] m-auto">
+        <div className="pt-[8rem]">
+          <h3 className="font-bold text-[4.8rem] text-[#011E41] mb-[4rem]">
+            {title}
+          </h3>
+
+          <p className="font-normal text-[1.4rem] text-[#011E41]">{text}</p>
+        </div>
+
+        <div className="grid grid-cols-12 gap-[2.4rem] py-[8rem]">
+          {dataCard &&
+            dataCard.map((item, index) => {
+              return (
+                <div
+                  key={item.id || index}
+                  className="bg-[#F4F6F6] py-[4rem] px-[7.8rem] col-span-3"
+                >
+                  <img src={item?.src} alt={item.alt} />
+                </div>
+              );
+            })}
+        </div>
+      </div>
+    </>
+  );
+}
+export default HomePageAboutTwo;
