@@ -57,3 +57,47 @@ img {
 .servis-card:hover a {
   color: #ffffff !important;
 }
+
+@media screen and (min-width: 1999px) {
+  body {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  header {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  .burger-hide {
+    display: none;
+  }
+}
+@media screen and (max-width: 1999px) {
+  .burger-hide {
+    display: none;
+  }
+}
+
+.inputs input {
+  border: 1px solid #bfc8ca;
+  outline: none;
+  padding-left: 2rem;
+  font-size: 1.4rem;
+  padding: 1.4rem;
+}
+
+.inputs input::placeholder {
+  color: #002755;
+}
+
+.inputs select {
+  border: 1px solid #bfc8ca;
+  outline: none;
+  padding-left: 2rem;
+  padding: 1.4rem;
+  font-size: 1.4rem;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

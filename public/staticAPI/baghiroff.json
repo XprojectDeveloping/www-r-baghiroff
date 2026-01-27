@@ -399,10 +399,11 @@
         "alt": "email"
       }
     ],
-    "contactImg": "./src/assets/img/body/contact/contact-img.png",
-    "title2_az": "Bizə müraciət et!",
-    "title2_ru": "Свяжитесь с нами!",
-    "title2_en": "Contact us!",
+    "src": "./src/assets/img/body/contact/contact-img.png",
+    "alt": "contact",
+    "title2_az": "Bizə müraciət et",
+    "title2_ru": "Свяжитесь с нами",
+    "title2_en": "Contact us",
     "text2_az": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "text2_ru": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "text2_en": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -411,21 +412,29 @@
         "id": 1,
         "option_az": "Tam mühasibat uçotu xidməti",
         "option_ru": "Полный бухгалтерский учет",
-        "option_en": "Full accounting service"
+        "option_en": "Full accounting service",
+        "value": "business"
       },
       {
         "id": 2,
         "option_az": "Vergi uçotu və hesabatların hazırlanması",
         "option_ru": "Налоговый учет и подготовка отчетности",
-        "option_en": "Tax accounting and report preparation"
+        "option_en": "Tax accounting and report preparation",
+        "value": "business"
       },
       {
         "id": 3,
         "option_az": "Vergi problemlərinin həlli və hüquqi dəstək",
         "option_ru": "Решение налоговых проблем и юридическая поддержка",
-        "option_en": "Tax problem solving and legal support"
+        "option_en": "Tax problem solving and legal support",
+        "value": "business"
       }
-    ]
+    ],
+    "contactButton": {
+      "button_az": "Göndər",
+      "button_ru": "Отправить",
+      "button_en": "Submit"
+    }
   },
   "footer": {
     "footerLogo": {
