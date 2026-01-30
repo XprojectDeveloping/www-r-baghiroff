@@ -4,8 +4,11 @@ import { getMultiLang as ml } from "../components/Language/translation/Multilang
 import HomePageServices from "../components/Sections/HomePage/HomePageServices.jsx";
 import HomePageAbout from "../components/Sections/HomePage/HomePageAbout.jsx";
 import HomePageAboutTwo from "../components/Sections/HomePage/HomePageAboutTwo.jsx";
+import HomePageContact from "../components/Sections/HomePage/HomePageContact.jsx";
+import { useTranslation } from "react-i18next";
 function HomePage() {
   const { data } = UseGlobalFetch();
+  const { i18n, t } = useTranslation();
 
   return (
     <>
@@ -34,6 +37,7 @@ function HomePage() {
             />
           )}
         </section>
+
         <section className="bg-[#002756]">
           {data?.homePageAbout && (
             <HomePageServices
@@ -47,6 +51,23 @@ function HomePage() {
                 data?.services?.text_az || "",
                 data?.services?.text_ru || "",
                 data?.services?.text_en || "",
+              )}
+            />
+          )}
+        </section>
+
+        <section>
+          {data?.contact && (
+            <HomePageContact
+              title={ml(
+                data?.contact?.title2_az || "",
+                data?.contact?.title2_ru || "",
+                data?.contact?.title2_en || "",
+              )}
+              text={ml(
+                data?.contact?.text2_az || "",
+                data?.contact?.text2_ru || "",
+                data?.contact?.text2_en || "",
               )}
             />
           )}

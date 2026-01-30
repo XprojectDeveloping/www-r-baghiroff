@@ -17,7 +17,7 @@ function HomePageBanner({
             alt={alt}
           />
 
-          <h1 className="text-[#FFFFFF] text-[8rem] font-bold absolute inset-0 flex items-center justify-center w-full h-full">
+          <h1 className="text-[#FFFFFF] text-[6rem] font-bold absolute inset-0 flex items-center justify-center w-full h-full">
             {text}
           </h1>
         </div>

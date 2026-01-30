@@ -10,7 +10,6 @@ function Header() {
   const [open, setOpen] = useState(false);
   const langs = ["az", "ru", "en"];
   const { data } = UseGlobalFetch();
-  console.log(data);
 
   const changeLang = async (lang) => {
     await i18n.changeLanguage(lang);

@@ -17,7 +17,7 @@ function HomePageServices({ title, text, dataServices }) {
             dataServices?.map((item, index) => {
               return (
                 <div
-                  className="servis-card col-span-4 bg-[#ffffff] p-[4rem] h-full flex flex-col justify-between gap-[4rem]"
+                  className="servis-card col-span-4 bg-[#ffffff] p-[4rem] h-full flex flex-col justify-between gap-[4rem] bg-[url('./src/assets/img/body/services/card-bg-img.svg')] bg-cover"
                   key={item?.id || index}
                 >
                   <h3 className="text-[2.4rem] font-bold text-[#011E41]">

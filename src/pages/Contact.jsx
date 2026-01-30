@@ -3,8 +3,10 @@ import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch";
 import PhoneIco from "../assets/img/body/contact/contact-img.svg";
 import EmailIco from "../assets/img/body/contact/contact-img2.svg";
 import ContactForm from "../components/Form/ContactForm.jsx";
+import { useTranslation } from "react-i18next";
 function Contact() {
   const { data } = UseGlobalFetch();
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className="max-w-[1200px] my-[8rem] m-auto text-center">
@@ -67,26 +69,26 @@ function Contact() {
       </div>
 
       <div className="max-w-[1200px] m-auto">
-        <div className="p-[8rem]  bg-[#F4F6F6]">
-          <h3 className="text-[4.8rem] text-[#002755] font-bold mb-[2rem]">
-            {ml(
-              data?.contact?.title2_az || "",
-              data?.contact?.title2_ru || "",
-              data?.contact?.title2_en || "",
-            )}
-          </h3>
+        <div className="p-[8rem] bg-[#F4F6F6]">
+          <div className="flex flex-col">
+            <h3 className="text-[4.8rem] text-[#002755] font-bold mb-[2rem]">
+              {ml(
+                data?.contact?.title2_az || "",
+                data?.contact?.title2_ru || "",
+                data?.contact?.title2_en || "",
+              )}
+            </h3>
 
-          <p className="text-[1.4rem] text-[#002755] font-normal mb-[2.2rem]">
-            {ml(
-              data?.contact?.text2_az || "",
-              data?.contact?.text2_ru || "",
-              data?.contact?.text2_en || "",
-            )}
-          </p>
-
-          <ContactForm />
+            <p className="text-[1.4rem] text-[#002755] font-normal mb-[2.2rem]">
+              {ml(
+                data?.contact?.text2_az || "",
+                data?.contact?.text2_ru || "",
+                data?.contact?.text2_en || "",
+              )}
+            </p>
+            <ContactForm />
+          </div>
         </div>
-        <img src={data?.contact?.src} alt={data?.contact?.alt} />
       </div>
     </>
   );

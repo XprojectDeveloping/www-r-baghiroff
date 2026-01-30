@@ -35,7 +35,11 @@ function ContactForm({}) {
           <input
             type="text"
             name="text"
-            placeholder="Ad / Soyad"
+            placeholder={ml(
+              data?.contact?.placeholderName_az || "",
+              data?.contact?.placeholderName_ru || "",
+              data?.contact?.placeholderName_en || "",
+            )}
             value={form.name}
             onChange={handleChange}
           />
@@ -43,7 +47,11 @@ function ContactForm({}) {
           <input
             type="tel"
             name="phone"
-            placeholder="Mobil Nömrə"
+            placeholder={ml(
+              data?.contact?.placeholderNumber_az || "",
+              data?.contact?.placeholderNumber_ru || "",
+              data?.contact?.placeholderNumber_en || "",
+            )}
             value={form.phone}
             onChange={handleChange}
           />
