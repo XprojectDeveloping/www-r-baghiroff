@@ -69,6 +69,7 @@ function HomePage() {
                 data?.contact?.text2_ru || "",
                 data?.contact?.text2_en || "",
               )}
+              img={data?.contact?.src}
             />
           )}
         </section>

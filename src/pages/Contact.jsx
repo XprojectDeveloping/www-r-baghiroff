@@ -9,7 +9,7 @@ function Contact() {
   const { i18n, t } = useTranslation();
   return (
     <>
-      <div className="max-w-[1200px] my-[8rem] m-auto text-center">
+      <div className="max-w-[1200px] my-[14rem] m-auto text-center">
         <h3 className="mb-[4rem] text-[4.8rem] text-[#002755] font-bold">
           {ml(
             data?.contact?.title_az || "",
@@ -69,8 +69,8 @@ function Contact() {
       </div>
 
       <div className="max-w-[1200px] m-auto">
-        <div className="p-[8rem] bg-[#F4F6F6]">
-          <div className="flex flex-col">
+        <div className="grid grid-cols-12 relative">
+          <div className="col-span-8 px-[80px] pt-[40px] pb-[80px] bg-[#F4F6F6]">
             <h3 className="text-[4.8rem] text-[#002755] font-bold mb-[2rem]">
               {ml(
                 data?.contact?.title2_az || "",
@@ -86,7 +86,11 @@ function Contact() {
                 data?.contact?.text2_en || "",
               )}
             </p>
+
             <ContactForm />
+          </div>
+          <div className="col-span-4 flex justify-center items-center absolute right-[-3.25rem] bottom-[12.25rem]">
+            <img className="max-w-[48rem]" src={data?.contact?.src} alt="" />
           </div>
         </div>
       </div>

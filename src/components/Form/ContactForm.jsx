@@ -71,7 +71,7 @@ function ContactForm({}) {
               })}
           </select>
           <button
-            className="bg-[#011E41] text-[#FFFFFF] text-[1.4rem] font-normal py-[1.3rem] flex items-center justify-center gap-[1.2rem] hover:bg-[#03a0e2]"
+            className="bg-[#011E41] transition_css text-[#FFFFFF] text-[1.4rem] lg:text-[1.2rem] font-normal py-[1.3rem] flex items-center justify-center gap-[1.2rem] hover:bg-[#03a0e2]"
             type="sumbit"
           >
             {ml(

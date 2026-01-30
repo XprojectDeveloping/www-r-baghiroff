@@ -79,12 +79,12 @@ img {
   background: #011e41;
 }
 
+.transition_css {
+  transition: 0.3s linear;
+}
+
 @media screen and (min-width: 1999px) {
   body {
-    max-width: 1320px;
-    margin: 0 auto;
-  }
-  header {
     max-width: 1320px;
     margin: 0 auto;
   }
@@ -98,10 +98,19 @@ img {
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .inputs input {
+    font-size: 1.2rem !important;
+  }
+
+  .inputs select {
+    font-size: 1.2rem !important;
+  }
+}
+
 .inputs input {
   border: 1px solid #bfc8ca;
   outline: none;
-  padding-left: 2rem;
   font-size: 1.4rem;
   padding: 1.4rem;
 }
@@ -113,7 +122,6 @@ img {
 .inputs select {
   border: 1px solid #bfc8ca;
   outline: none;
-  padding-left: 2rem;
   padding: 1.4rem;
   font-size: 1.4rem;
 }

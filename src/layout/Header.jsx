@@ -2,9 +2,10 @@ import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch.jsx";
 import langArrow2 from "../assets/img/header/langArrow/arrow-ico2.svg";
 import Lang from "../components/Language/Lang.jsx";
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink } from "react-router-dom";
+import Burgermenu from "../components/Burgermenu/Burgermenu.jsx";
 function Header() {
   const [t, i18n] = useTranslation("translation");
   const [open, setOpen] = useState(false);
@@ -21,10 +22,28 @@ function Header() {
   };
 
   const langFilter = langs?.filter(filteredLang);
+
+  const [scroll, setScroll] = useState();
+  const SCROLL_Y = 200;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > SCROLL_Y) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <>
-      <header className="bg-[#F4F6F6]">
-        <div className="max-w-[1200px] m-auto py-[4rem] flex justify-between items-center">
+      <header className={`bg-[#F4F6F6] fixed top-0 left-0 right-0 z-[2000]`}>
+        <div
+          className={`max-w-[1200px] m-auto py-[3rem] lg:px-[4rem] transition_css flex justify-between items-center ${scroll ? "!py-[2rem]" : ""}`}
+        >
           <div className="">
             <Link to="/">
               <img
@@ -34,7 +53,7 @@ function Header() {
               />
             </Link>
           </div>
-          <div className="flex gap-[3.2rem]">
+          <div className="flex gap-[3.2rem] lg:hidden">
             {data?.header?.headerLinks &&
               data?.header?.headerLinks?.map((item, index) => {
                 return (
@@ -52,14 +71,14 @@ function Header() {
                 );
               })}
           </div>
-          <div className="flex items-center gap-[3.2rem]">
-            <div className="bg-[#EAEDED] p-[8px] cursor-pointer hover:bg-[#bbbbbb]">
+          <div className="flex items-center gap-[3.2rem] lg:gap-[1.3rem]">
+            <div className="bg-[#EAEDED] p-[8px] cursor-pointer">
               <img
                 src={data?.header?.headerSearchIco?.src}
                 alt={data?.header?.headerSearchIco?.alt}
               />
             </div>
-            <div className="bg-[#EAEDED] py-[6px] px-[19px] hover:bg-[#bbbbbb]">
+            <div className="bg-[#EAEDED] py-[6px] px-[19px]">
               <Lang
                 toggle={() => setOpen(!open)}
                 swichLang={
@@ -71,7 +90,7 @@ function Header() {
                             onClick={() => changeLang(item)}
                             name="button"
                             type="button"
-                            className="text-[#002755] z-[200] text-[1.4rem] font-normal py-[7px] px-[19px] hover:bg-gray-200 transitions bg-[#ffffff] flex items-center gap-[8px]"
+                            className="text-[#002755] z-[200] text-[1.4rem] font-normal py-[7px] px-[19px] transition_css hover:bg-gray-200 transitions bg-[#ffffff] flex items-center gap-[8px]"
                             key={item.id || index}
                           >
                             {item}
@@ -83,6 +102,9 @@ function Header() {
                   )
                 }
               />
+            </div>
+            <div className="bg-[#EAEDED]">
+              <Burgermenu />
             </div>
           </div>
         </div>

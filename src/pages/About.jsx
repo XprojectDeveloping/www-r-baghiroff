@@ -47,7 +47,7 @@ function About() {
           )}
         </section>
 
-        <section>
+        {/* <section>
           {data?.about && (
             <AboutValues
               title={ml(
@@ -66,7 +66,7 @@ function About() {
               swiperImgAlt={data?.about?.aboutImgAlt}
             />
           )}
-        </section>
+        </section> */}
       </main>
     </>
   );
