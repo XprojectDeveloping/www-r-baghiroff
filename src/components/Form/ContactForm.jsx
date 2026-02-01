@@ -1,7 +1,7 @@
 import { useState } from "react";
 import UseGlobalFetch from "../UseGlobalFetch/UseGlobalFetch";
 import { getMultiLang as ml } from "../Language/translation/Multilang.js";
-import contactIco from "../../assets/img/body/contact/contact-arrow-ico.svg";
+import contactIco from "/assets/img/body/contact/contact-arrow-ico.svg";
 function ContactForm({}) {
   const { data } = UseGlobalFetch();
   const [form, setForm] = useState({
