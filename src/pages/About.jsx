@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
+import { motion } from "framer-motion";
 import AboutOurGoal from "../components/Sections/About/AboutOurGoal.jsx";
 import AboutSectionAboutUs from "../components/Sections/About/AboutSectionAboutUs.jsx";
 import AboutValues from "../components/Sections/About/AboutValues.jsx";
@@ -10,44 +11,50 @@ function About() {
   return (
     <>
       <main>
-        <section>
-          {data?.about && (
-            <AboutSectionAboutUs
-              title={ml(
-                data?.about?.title_az || "",
-                data?.about?.title_ru || "",
-                data?.about?.title_en || "",
-              )}
-              aboutBanner={data?.about?.banner}
-              aboutBannerAlt={data?.about?.alt}
-              text={ml(
-                data?.about?.text_az || "",
-                data?.about?.text_ru || "",
-                data?.about?.text_en || "",
-              )}
-            />
-          )}
-        </section>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.75, ease: "easeOut" }}
+        >
+          <section>
+            {data?.about && (
+              <AboutSectionAboutUs
+                title={ml(
+                  data?.about?.title_az || "",
+                  data?.about?.title_ru || "",
+                  data?.about?.title_en || "",
+                )}
+                aboutBanner={data?.about?.banner}
+                aboutBannerAlt={data?.about?.alt}
+                text={ml(
+                  data?.about?.text_az || "",
+                  data?.about?.text_ru || "",
+                  data?.about?.text_en || "",
+                )}
+              />
+            )}
+          </section>
 
-        <section className="bg-[#F4F6F6]">
-          {data?.about && (
-            <AboutOurGoal
-              title={ml(
-                data?.about?.title2_az || "",
-                data?.about?.title2_ru || "",
-                data?.about?.title2_en || "",
-              )}
-              text={ml(
-                data?.about?.text2_az || "",
-                data?.about?.text2_ru || "",
-                data?.about?.text2_en || "",
-              )}
-              dataCard={data?.about?.cards}
-            />
-          )}
-        </section>
+          <section className="bg-[#F4F6F6]">
+            {data?.about && (
+              <AboutOurGoal
+                title={ml(
+                  data?.about?.title2_az || "",
+                  data?.about?.title2_ru || "",
+                  data?.about?.title2_en || "",
+                )}
+                text={ml(
+                  data?.about?.text2_az || "",
+                  data?.about?.text2_ru || "",
+                  data?.about?.text2_en || "",
+                )}
+                dataCard={data?.about?.cards}
+              />
+            )}
+          </section>
 
-        {/* <section>
+          {/* <section>
           {data?.about && (
             <AboutValues
               title={ml(
@@ -67,6 +74,7 @@ function About() {
             />
           )}
         </section> */}
+        </motion.div>
       </main>
     </>
   );
