@@ -130,3 +130,8 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+
+
+.fixed-trans{
+  transition: 0.3 linear;
+}

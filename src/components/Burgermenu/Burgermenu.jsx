@@ -15,7 +15,7 @@ function Burgermenu(params) {
   const closeMenu = () => setOpen(false);
   return (
     <>
-      <button onClick={toggleMenu} className="burger-hide lg:flex">
+      <button onClick={toggleMenu} className="burger-hide lg:flex outline-none">
         <img className="max-w-[3rem]" src={headerBurgerMenuIco} alt="ico" />
       </button>
       {open && (

@@ -31,7 +31,7 @@ function ContactForm({}) {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div className="inputs flex flex-col gap-[3rem] mb-[4rem]">
+        <div className="inputs flex flex-col gap-[3rem]">
           <input
             type="text"
             name="text"

@@ -5,8 +5,8 @@ function HomePageContact({ title, text, img }) {
     <>
       <div className="max-w-[1200px] m-auto">
         <div className="grid grid-cols-12 relative">
-          <div className="col-span-8 lg:col-span-12 px-[8rem] lg:px-[4rem] pt-[4rem] pb-[4rem] bg-[#F4F6F6]">
-            <h3 className="text-[4.8rem] lg:text-[2.8rem] text-[#002755] font-bold mb-[2rem]">
+          <div className="col-span-8 lg:col-span-12 px-[8rem] lg:px-[4rem] md:px-[2rem] sm:px-[1.5rem] pt-[4rem] md:pt-[2rem] pb-[4rem] md:pb-[2rem] bg-[#F4F6F6]">
+            <h3 className="text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] text-[#002755] font-bold mb-[2rem]">
               {title}
             </h3>
 
