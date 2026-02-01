@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import langArrow from "../../assets/img/header/langArrow/arrow-ico.svg";
+import langArrow from "/assets/img/header/langArrow/arrow-ico.svg";
 function Lang({ toggle, swichLang }) {
   const { i18n } = useTranslation();
   const curretLang = i18n.language ? i18n.language.split("-")[0] : "az";
