@@ -1,7 +1,7 @@
 {
   "header": {
     "headerLogo": {
-      "src": "./src/assets/img/header/headerLogo/headerlogo-img.svg",
+      "src": "/src/assets/img/header/headerLogo/headerlogo-img.svg",
       "alt": "logo"
     },
     "headerLinks": [
