@@ -1,11 +1,10 @@
 import { useTranslation } from "react-i18next";
 import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch";
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
-import BannerImg from "../assets/img/body/servicesSingle/banner.png";
-import ArrowImg from "../assets/img/body/servicesSingle/arrow.svg";
-import LinkImg from "../assets/img/body/services/link-ico.svg";
-import CardBgImg from "../assets/img/body/services/card-bg-img.svg";
-import HomePageContact from "../components/Sections/HomePage/HomePageContact";
+import BannerImg from "/assets/img/body/servicesSingle/banner.png";
+import ArrowImg from "/assets/img/body/servicesSingle/arrow.svg";
+import LinkImg from "/assets/img/body/services/link-ico.svg";
+import CardBgImg from "/assets/img/body/services/card-bg-img.svg";
 import ContactForm from "../components/Form/ContactForm";
 import { Link } from "react-router-dom";
 function ServicesSingle() {

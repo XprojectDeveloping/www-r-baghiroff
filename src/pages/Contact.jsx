@@ -1,8 +1,8 @@
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
 import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch";
-import PhoneIco from "../assets/img/body/contact/contact-img.svg";
-import EmailIco from "../assets/img/body/contact/contact-img2.svg";
-import ContactForm from "../components/Form/ContactForm.jsx";
+import PhoneIco from "/assets/img/body/contact/contact-img.svg";
+import EmailIco from "/assets/img/body/contact/contact-img2.svg";
+import ContactForm from "/components/Form/ContactForm.jsx";
 import { useTranslation } from "react-i18next";
 function Contact() {
   const { data } = UseGlobalFetch();
