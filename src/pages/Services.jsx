@@ -45,7 +45,7 @@ function Services() {
                         key={item.id || index}
                         className="servis-card col-span-4 md:col-span-6 bg-[#F4F6F6] p-[4rem] md:p-[2rem] h-full flex flex-col justify-between gap-[4rem]"
                         style={{
-                          backgroundImage: `url(./src/assets/img/body/services/card-bg-img.svg)`,
+                          backgroundImage: `url(/assets/img/body/services/card-bg-img.svg)`,
                         }}
                       >
                         <h3 className="text-[2.4rem] md:text-[1.4rem] font-bold text-[#011E41]">

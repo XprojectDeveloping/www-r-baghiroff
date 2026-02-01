@@ -22,7 +22,7 @@ function HomePageBanner({
           </h1>
         </div>
       </div>
-      <div className="relative max-w-[1200px] m-auto my-[8rem] lg:my-[4rem] md:my-[2rem] lg:px-[4rem] md:px-[2rem] sm:px-[1.5rem]">
+      <div className="relative max-w-[1200px] m-auto lg:px-[4rem] md:px-[2rem] sm:px-[1.5rem] my-[8rem] lg:my-[4rem] md:my-[2rem]">
         <div className="absolute -top-[19rem] right-10 ">
           <img
             className="max-w-[20rem] lg:hidden"
