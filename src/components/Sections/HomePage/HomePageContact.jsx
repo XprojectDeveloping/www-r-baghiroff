@@ -1,6 +1,4 @@
-import ContactForm from "../../Form/ContactForm";
-
-function HomePageContact({ title, text, img }) {
+function HomePageContact({ title, text, img, form }) {
   return (
     <>
       <div className="max-w-[1200px] m-auto">
@@ -14,7 +12,7 @@ function HomePageContact({ title, text, img }) {
               {text}
             </p>
 
-            <ContactForm />
+            {form}
           </div>
           <div className="col-span-4 flex justify-center items-center absolute right-[-3.25rem] bottom-[12.25rem] lg:hidden">
             <img className="max-w-[48rem]" src={img} alt="" />

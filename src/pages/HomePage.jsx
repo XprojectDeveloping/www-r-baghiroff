@@ -6,6 +6,7 @@ import HomePageAbout from "../components/Sections/HomePage/HomePageAbout.jsx";
 import HomePageAboutTwo from "../components/Sections/HomePage/HomePageAboutTwo.jsx";
 import HomePageContact from "../components/Sections/HomePage/HomePageContact.jsx";
 import { useTranslation } from "react-i18next";
+import ContactForm from "../components/Form/ContactForm.jsx";
 function HomePage() {
   const { data } = UseGlobalFetch();
   const { i18n, t } = useTranslation();
@@ -70,6 +71,7 @@ function HomePage() {
                 data?.contact?.text2_en || "",
               )}
               img={data?.contact?.src}
+              form={<ContactForm />}
             />
           )}
         </section>
