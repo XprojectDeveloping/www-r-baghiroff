@@ -1,5 +1,5 @@
 import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch.jsx";
-import langArrow2 from "../assets/img/header/langArrow/arrow-ico2.svg";
+import langArrow2 from "assets/img/header/langArrow/arrow-ico2.svg";
 import Lang from "../components/Language/Lang.jsx";
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
 import { useEffect, useState } from "react";

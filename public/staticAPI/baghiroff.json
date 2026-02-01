@@ -1,7 +1,7 @@
 {
   "header": {
     "headerLogo": {
-      "src": "/src/assets/img/header/headerLogo/headerlogo-img.svg",
+      "src": "/assets/img/header/headerLogo/headerlogo-img.svg",
       "alt": "logo"
     },
     "headerLinks": [
@@ -35,19 +35,19 @@
       }
     ],
     "headerSearchIco": {
-      "src": "./src/assets/img/header/searchIco/searchIco-img.svg",
+      "src": "/assets/img/header/searchIco/searchIco-img.svg",
       "alt_az": "axtarış ikonu",
       "alt_ru": "иконка поиска",
       "alt_en": "search icon"
     }
   },
   "homeBanner": {
-    "src": "./src/assets/img/body/homepage/homePageBanner/homePageBanner-img.png",
+    "src": "/assets/img/body/homepage/homePageBanner/homePageBanner-img.png",
     "alt": "Banner",
     "title_az": "Sizin böyüməniz bizim təcrübəmizdir.",
     "title_ru": "Ваш рост – наша экспертиза.",
     "title_en": "Your growth, our expertise.",
-    "upLogo": "./src/assets/img/body/homepage/homePageBanner/homepageBannerLogo.svg",
+    "upLogo": "/assets/img/body/homepage/homePageBanner/homepageBannerLogo.svg",
     "upLogoAlt": "logo",
     "title2_az": "Etibarlı maliyyə tərəfdaşınız.",
     "title2_ru": "Ваш надежный финансовый партнер.",
@@ -66,7 +66,7 @@
     "aboutCard1": [
       {
         "id": 1,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img.svg",
         "alt": "icon",
         "title_number": "3+",
         "text_az": "il təcrübə",
@@ -75,7 +75,7 @@
       },
       {
         "id": 2,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img.svg",
         "alt": "icon",
         "title_number": "150+",
         "text_az": "əməkdaş",
@@ -84,7 +84,7 @@
       },
       {
         "id": 3,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img.svg",
         "alt": "icon",
         "title_number": "24+",
         "text_az": "xidmət",
@@ -93,7 +93,7 @@
       },
       {
         "id": 4,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img.svg",
         "alt": "icon",
         "title_number": "1500+",
         "text_az": "müştəri",
@@ -112,22 +112,22 @@
     "aboutCard2": [
       {
         "id": 1,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img2.svg",
         "alt": "partner"
       },
       {
         "id": 2,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img2.svg",
         "alt": "partner"
       },
       {
         "id": 3,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img2.svg",
         "alt": "partner"
       },
       {
         "id": 4,
-        "src": "./src/assets/img/body/homepage/homePageAbout/about-img2.svg",
+        "src": "/assets/img/body/homepage/homePageAbout/about-img2.svg",
         "alt": "partner"
       }
     ]
@@ -136,7 +136,7 @@
     "title_az": "Haqqımızda",
     "title_ru": "О нас",
     "title_en": "About Us",
-    "banner": "./src/assets/img/body/about/aboutBanner-img.png",
+    "banner": "/assets/img/body/about/aboutBanner-img.png",
     "alt": "about banner",
     "text_az": "Bizim missiyamız müştərilərimizə strateji hədəflərinə çatmaqda kömək etmək və biznesin inkişafı üçün innovativ həllər təqdim etməkdir. Yarandığımız gündən bəri şəffaflıq, etibarlılıq və peşəkarlıq prinsiplərinə sadiq qalaraq, yerli və beynəlxalq bazarda aparıcı tərəfdaşlardan birinə çevrilmişik. Biz inanırıq ki, hər bir uğurun təməlində düzgün qurulmuş komanda işi və fərdi yanaşma dayanır. Təcrübəli mütəxəssislərimiz hər bir layihəyə xüsusi həssaslıqla yanaşaraq, ən mürəkkəb çağırışlara belə optimal cavablar tapır. Müştərilərimizin böyüməsi — bizim əsas nailiyyətimizdir. Biz yalnız xidmət göstərmirik, həm də gələcəyə doğru birlikdə addımladığımız uzunmüddətli tərəfdaşlıq əlaqələri qururuq.",
     "text_ru": "Наша миссия — помогать клиентам достигать их стратегических целей и предоставлять инновационные решения для развития бизнеса. С момента основания мы придерживаемся принципов прозрачности, надежности и профессионализма, став одним из ведущих партнеров на местном и международном рынке. Мы верим, что в основе каждого успеха лежит правильно построенная командная работа и индивидуальный подход. Наши опытные специалисты подходят к каждому проекту с особой тщательностью, находя оптимальные решения даже для самых сложных задач. Рост наших клиентов — наше главное достижение. Мы не просто предоставляем услуги, мы строим долгосрочные партнерские отношения, шаг за шагом двигаясь вместе в будущее.",
@@ -150,7 +150,7 @@
     "cards": [
       {
         "id": 1,
-        "src": "./src/assets/img/body/about/card-ico.svg",
+        "src": "/assets/img/body/about/card-ico.svg",
         "alt": "card-icon",
         "title_az": "Yüksək Keyfiyyət",
         "title_ru": "Высокое качество",
@@ -161,7 +161,7 @@
       },
       {
         "id": 2,
-        "src": "./src/assets/img/body/about/card-ico.svg",
+        "src": "/assets/img/body/about/card-ico.svg",
         "alt": "card-icon",
         "title_az": "Peşəkar Komandat",
         "title_ru": "Профессиональная команда",
@@ -172,7 +172,7 @@
       },
       {
         "id": 3,
-        "src": "./src/assets/img/body/about/card-ico.svg",
+        "src": "/assets/img/body/about/card-ico.svg",
         "alt": "card-icon",
         "title_az": "İnnovativ Həllər",
         "title_ru": "Инновационные решения",
@@ -183,7 +183,7 @@
       },
       {
         "id": 4,
-        "src": "./src/assets/img/body/about/card-ico.svg",
+        "src": "/assets/img/body/about/card-ico.svg",
         "alt": "card-icon",
         "title_az": "Etibarlı Tərəfdaşlıq",
         "title_ru": "Надежные партнёры",
@@ -201,7 +201,7 @@
     "text3_en": "Our values form the foundation of our work and serve as a  guiding principle in every project. They ensure the quality and reliability of the services we provide to our clients.",
     "title4_az": "Lorem Ipsum",
     "text4_az": "Lorem Ipsum  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "aboutImg": "./src/assets/img/body/about/about-img.png",
+    "aboutImg": "/assets/img/body/about/about-img.png",
     "aboutImgAlt": "about image"
   },
   "services": {
@@ -223,7 +223,7 @@
         "link_az": "Ətraflı",
         "link_ru": "Подробнее",
         "link_en": "More",
-        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+        "linkIco": "/assets/img/body/services/link-ico.svg"
       },
       {
         "id": 2,
@@ -236,7 +236,7 @@
         "link_az": "Ətraflı",
         "link_ru": "Подробнее",
         "link_en": "More",
-        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+        "linkIco": "/assets/img/body/services/link-ico.svg"
       },
       {
         "id": 3,
@@ -249,7 +249,7 @@
         "link_az": "Ətraflı",
         "link_ru": "Подробнее",
         "link_en": "More",
-        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+        "linkIco": "/assets/img/body/services/link-ico.svg"
       },
       {
         "id": 4,
@@ -262,7 +262,7 @@
         "link_az": "Ətraflı",
         "link_ru": "Подробнее",
         "link_en": "More",
-        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+        "linkIco": "/assets/img/body/services/link-ico.svg"
       },
       {
         "id": 5,
@@ -275,7 +275,7 @@
         "link_az": "Ətraflı",
         "link_ru": "Подробнее",
         "link_en": "More",
-        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+        "linkIco": "/assets/img/body/services/link-ico.svg"
       },
       {
         "id": 6,
@@ -288,7 +288,7 @@
         "link_az": "Ətraflı",
         "link_ru": "Подробнее",
         "link_en": "More",
-        "linkIco": "./src/assets/img/body/services/link-ico.svg"
+        "linkIco": "/assets/img/body/services/link-ico.svg"
       }
     ],
     "serviceSingle": {
@@ -401,21 +401,21 @@
     "images": [
       {
         "id": 1,
-        "src": "./src/assets/img/body/contact/contact-img.svg",
+        "src": "/assets/img/body/contact/contact-img.svg",
         "alt": "phone"
       },
       {
         "id": 2,
-        "src": "./src/assets/img/body/contact/contact-img2.svg",
+        "src": "/assets/img/body/contact/contact-img2.svg",
         "alt": "email"
       },
       {
         "id": 3,
-        "src": "./src/assets/img/body/contact/contact-img2.svg",
+        "src": "/assets/img/body/contact/contact-img2.svg",
         "alt": "email"
       }
     ],
-    "src": "./src/assets/img/body/contact/contact-img.webp",
+    "src": "/assets/img/body/contact/contact-img.webp",
     "alt": "contact",
     "title2_az": "Bizə müraciət et",
     "title2_ru": "Свяжитесь с нами",
@@ -454,31 +454,31 @@
   },
   "footer": {
     "footerLogo": {
-      "src": "./src/assets/img/footer/footerLogo-img.svg",
+      "src": "/assets/img/footer/footerLogo-img.svg",
       "alt": "logo"
     },
     "footerSocial": [
       {
         "id": 1,
-        "src": "./src/assets/img/footer/facebook-img.svg",
+        "src": "/assets/img/footer/facebook-img.svg",
         "to": "/",
         "alt": "facebook"
       },
       {
         "id": 2,
-        "src": "./src/assets/img/footer/linkedin-img.svg",
+        "src": "/assets/img/footer/linkedin-img.svg",
         "to": "/",
         "alt": "linkedin"
       },
       {
         "id": 3,
-        "src": "./src/assets/img/footer/youtube-img.svg",
+        "src": "/assets/img/footer/youtube-img.svg",
         "to": "/",
         "alt": "youtube"
       },
       {
-        "id": 3,
-        "src": "./src/assets/img/footer/instagram-img.svg",
+        "id": 4,
+        "src": "/assets/img/footer/instagram-img.svg",
         "to": "/",
         "alt": "instagram"
       }

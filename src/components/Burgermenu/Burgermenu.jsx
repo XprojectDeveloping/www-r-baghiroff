@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import UseGlobalFetch from "../UseGlobalFetch/UseGlobalFetch";
-import headerBurgerMenuIco from "../../assets/img/header/headerBurgerMenu/header-burgerMenu-ico.svg";
-import headerBurgerMenuClose from "../../assets/img/header/headerBurgerMenu/header-burgerMenu-close-ico.svg";
+import headerBurgerMenuIco from "/assets/img/header/headerBurgerMenu/header-burgerMenu-ico.svg";
+import headerBurgerMenuClose from "/assets/img/header/headerBurgerMenu/header-burgerMenu-close-ico.svg";
 import { getMultiLang as ml } from "../../components/Language/translation/Multilang.js";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
