@@ -18,9 +18,13 @@ function HomePageAboutTwo({ title, text, dataCard }) {
               return (
                 <div
                   key={item.id || index}
-                  className="bg-[#F4F6F6] py-[4rem] px-[7.8rem] col-span-3"
+                  className="bg-[#F4F6F6] flex justify-center py-[4rem] px-[7.8rem] col-span-3"
                 >
-                  <img src={item?.src} alt={item.alt} />
+                  <img
+                    className="lg:max-w-[20rem]"
+                    src={item?.src}
+                    alt={item.alt}
+                  />
                 </div>
               );
             })}

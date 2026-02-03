@@ -13,7 +13,7 @@ function HomePageAbout({ title, text, dataCard }) {
           </p>
         </div>
 
-        <div className="grid grid-cols-12 lg:grid-cols-6 md:grid-cols-3 gap-[2.4rem] lg:!gap-[5rem] py-[8rem]">
+        <div className="grid grid-cols-12 lg:grid-cols-6 md:grid-cols-3 gap-[2.4rem] lg:gap-[2rem] py-[8rem] lg:py-[4rem] md:py-[2rem] sm:py-[1.5rem  ]">
           {dataCard &&
             dataCard.map((item, index) => {
               return (
@@ -21,9 +21,9 @@ function HomePageAbout({ title, text, dataCard }) {
                   key={item.id || index}
                   className="col-span-3 bg-[#F4F6F6] flex justify-center flex-col items-center"
                 >
-                  <div className="mt-[-4rem]">
+                  <div className="mt-[-4rem] lg:mt-[0]">
                     <img
-                      className="lg:max-w-[6rem]"
+                      className="lg:hidden"
                       src={item?.src}
                       alt={item?.alt}
                     />

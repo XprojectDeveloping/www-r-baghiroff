@@ -5,11 +5,11 @@ function HomePageServices({ title, text, dataServices }) {
     <>
       <div className="max-w-[1200px] m-auto lg:px-[4rem] md:px-[2rem] sm:px-[1.5rem]">
         <div className="pt-[6.2rem] lg:pt-[4.2rem] md:pt-[2.2rem]">
-          <h2 className="text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] text-[#FFFFFF] fonts-bold pb-[4rem] lg:pb-[2rem] md:pb-[1.5rem]">
+          <h2 className="text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] sm:text-[2.5rem] text-[#FFFFFF] fonts-bold pb-[4rem] lg:pb-[2rem] md:pb-[1.5rem]">
             {title}
           </h2>
 
-          <p className="text-[1.4rem] lg:text-[1.2rem] text-[#AAB5B8] font-normal">
+          <p className="text-[1.4rem] lg:text-[1.3rem] md:text-[1.2rem] text-[#AAB5B8] font-normal">
             {text}
           </p>
         </div>
@@ -19,10 +19,10 @@ function HomePageServices({ title, text, dataServices }) {
             dataServices?.map((item, index) => {
               return (
                 <div
-                  className="servis-card col-span-4 md:col-span-8 bg-[#ffffff] p-[4rem] md:p-[2rem] h-full flex flex-col justify-between gap-[4rem] bg-[url('/assets/img/body/services/card-bg-img.svg')] bg-cover"
+                  className="servis-card col-span-4 md:col-span-8 bg-[#ffffff] p-[4rem] md:p-[2rem] h-full flex flex-col justify-between gap-[4rem] lg:gap-[2rem] bg-[url('/assets/img/body/services/card-bg-img.svg')] bg-cover"
                   key={item?.id || index}
                 >
-                  <h3 className="text-[2.4rem] lg:text-[1.7rem] font-bold text-[#011E41]">
+                  <h3 className="text-[2.4rem] lg:text-[2rem] md:text-[1.5rem] font-bold text-[#011E41]">
                     {ml(
                       item?.title_az || "",
                       item?.title_ru || "",
@@ -30,7 +30,7 @@ function HomePageServices({ title, text, dataServices }) {
                     )}
                   </h3>
 
-                  <p className="text-[1.4rem] text-[#011E41]">
+                  <p className="text-[1.4rem] lg:text-[1.2rem] text-[#011E41]">
                     {ml(
                       item.text_az || "",
                       item.text_ru || "",

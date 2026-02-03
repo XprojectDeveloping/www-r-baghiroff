@@ -45,12 +45,12 @@ function Services() {
                     return (
                       <div
                         key={item.id || index}
-                        className="servis-card col-span-4 md:col-span-6 bg-[#F4F6F6] p-[4rem] md:p-[2rem] h-full flex flex-col justify-between gap-[4rem]"
+                        className="servis-card col-span-4 md:col-span-6 bg-[#F4F6F6] p-[4rem] md:p-[2rem] h-full flex flex-col justify-between gap-[4rem] lg:gap-[2rem]"
                         style={{
                           backgroundImage: `url(/assets/img/body/services/card-bg-img.svg)`,
                         }}
                       >
-                        <h3 className="text-[2.4rem] md:text-[1.4rem] font-bold text-[#011E41]">
+                        <h3 className="text-[2.4rem] md:text-[1.8rem] font-bold text-[#011E41]">
                           {ml(
                             item?.title_az || "",
                             item?.title_ru || "",
@@ -58,7 +58,7 @@ function Services() {
                           )}
                         </h3>
 
-                        <p className="text-[1.4rem] md:text-[1.2rem] text-[#011E41]">
+                        <p className="text-[1.4rem] md:text-[1.3rem] text-[#011E41]">
                           {ml(
                             item.text_az || "",
                             item.text_ru || "",

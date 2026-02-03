@@ -3,10 +3,10 @@ function AboutOurGoal({ title, text, dataCard }) {
   return (
     <>
       <div className="max-w-[1200px] m-auto lg:px-[4rem] md:px-[2rem] sm:px-[1.5rem]">
-        <h3 className="pt-[8rem] lg:pt-[6rem] md:pt-[3rem] sm:pt-[2.5rem] text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] sm:text-[1.8rem] text-[#011E41] font-bold">
+        <h3 className="pt-[8rem] lg:pt-[6rem] md:pt-[3rem] sm:pt-[2.5rem] text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] sm:text-[1.9rem] text-[#011E41] font-bold">
           {title}
         </h3>
-        <p className="pt-[4rem] lg:pt-[2rem] sm:pt-[1.8rem] text-[1.4rem] lg:text-[1.2rem] sm:text-[1rem] text-[#011E41] font-normal">
+        <p className="pt-[4rem] lg:pt-[2rem] sm:pt-[1.8rem] text-[1.4rem] lg:text-[1.2rem] sm:text-[1.1rem] text-[#011E41] font-normal">
           {text}
         </p>
 

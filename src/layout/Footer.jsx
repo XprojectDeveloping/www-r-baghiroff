@@ -7,13 +7,12 @@ function Footer() {
   return (
     <>
       <footer className="bg-[#002755]">
-        <div className="max-w-[1200px] m-auto lg:px-[4rem] py-[4rem] lg:py-[2rem] sm:py-[1.8rem] flex justify-between xs:flex-col xs:gap-[2rem] items-center">
+        <div className="max-w-[1200px] m-auto lg:px-[4rem] py-[4rem] lg:py-[2rem] sm:py-[1.8rem] flex justify-between xs:flex-cold xs:gap-[2rem] items-center">
           <div>
             <Link to={"/"}>
               <img
                 className="max-w-[16rem] md:max-w-[14rem] sm:max-w-[13rem]"
                 src={data?.footer?.footerLogo?.src}
-                ы
                 alt={data?.footer?.footerLogo?.alt}
               />
             </Link>

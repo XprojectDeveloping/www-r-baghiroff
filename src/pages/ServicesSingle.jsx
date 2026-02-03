@@ -8,10 +8,10 @@ import CardBgImg from "/assets/img/body/services/card-bg-img.svg";
 import ContactForm from "../components/Form/ContactForm";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { toSlug } from "../components/ToSlug/ToSlug.js";
 function ServicesSingle() {
   const { i18n, t } = useTranslation();
   const { data } = UseGlobalFetch();
-
   return (
     <>
       <main>
@@ -25,9 +25,9 @@ function ServicesSingle() {
             <div className="text-left my-[8rem] lg:my-[6rem] md:my-[3rem] sm:my-[2.5rem]">
               <h3 className="text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] sm:text-[1.8rem]  text-[#002755] font-bold">
                 {ml(
-                  data?.services?.serviceSingle?.title_az || "",
-                  data?.services?.serviceSingle?.title_ru || "",
-                  data?.services?.serviceSingle?.title_en || "",
+                  data?.services?.title_az,
+                  data?.services?.title_ru,
+                  data?.services?.title_en,
                 )}
               </h3>
 
@@ -99,9 +99,12 @@ function ServicesSingle() {
 
             <div className="grid grid-cols-12 lg:grid-cols-6 md:grid-cols-3 justify-center gap-[2.4rem] mt-[4rem] lg:mt-[2rem] mb-[8rem] lg:mb-[6rem] md:mb-[3rem] sm:mb-[2.5rem]">
               {data?.services?.serviceSingle?.cards &&
-                data?.services?.serviceSingle?.cards?.map((item) => {
+                data?.services?.serviceSingle?.cards?.map((item, index) => {
                   return (
-                    <div className="col-span-3 bg-[#002755] p-[4rem]">
+                    <div
+                      key={item.id || index}
+                      className="col-span-3 bg-[#002755] p-[4rem]"
+                    >
                       <h3 className="mb-[2rem] text-[2.4rem] lg:text-[1.8rem] text-[#FFFFFF] font-semibold">
                         {ml(
                           item?.title_az || "",
@@ -134,9 +137,12 @@ function ServicesSingle() {
 
             <div className="grid grid-cols-12 lg:grid-cols-6 md:grid-cols-3 justify-center gap-[2.4rem] mt-[4rem] lg:mt-[2rem] mb-[8rem] lg:mb-[6rem] md:mb-[3rem]">
               {data?.services?.serviceSingle?.cards2 &&
-                data?.services?.serviceSingle?.cards2?.map((item) => {
+                data?.services?.serviceSingle?.cards2?.map((item, index) => {
                   return (
-                    <div className="col-span-3 bg-[#F4F6F6] p-[4rem] text-center">
+                    <div
+                      key={item.id || index}
+                      className="col-span-3 bg-[#F4F6F6] p-[4rem] text-center"
+                    >
                       <h3 className="mb-[2rem] text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] text-[#002755] font-bold">
                         {item?.title_number}
                       </h3>
