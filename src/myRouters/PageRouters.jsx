@@ -21,7 +21,7 @@ const PageRouters = () => {
       element: <Services />,
     },
     {
-      path: "/services/s/:id/:slug",
+      path: "/service/:id/:slug",
       element: <ServicesSingle />,
     },
     {

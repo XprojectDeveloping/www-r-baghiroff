@@ -41,6 +41,7 @@ function Burgermenu(params) {
                 className="text-[#ffffff] text-[1.4rem]"
                 key={item.id || index}
                 to={item?.to}
+                onClick={closeMenu}
               >
                 {ml(
                   item?.link_az || "",

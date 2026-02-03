@@ -3,6 +3,7 @@ import UseGlobalFetch from "../components/UseGlobalFetch/UseGlobalFetch";
 import { getMultiLang as ml } from "../components/Language/translation/Multilang.js";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { toSlug } from "../components/ToSlug/ToSlug.js";
 function Services() {
   const { data } = UseGlobalFetch();
   const { i18n, t } = useTranslation();
@@ -40,6 +41,7 @@ function Services() {
               <div className="grid grid-cols-12 lg:grid-cols-8 md:grid-cols-6 gap-[2.4rem]">
                 {data?.services?.servicesCards &&
                   data?.services?.servicesCards.map((item, index) => {
+                    const item_slug = toSlug(item.title_en);
                     return (
                       <div
                         key={item.id || index}
@@ -66,7 +68,7 @@ function Services() {
 
                         <Link
                           className="flex items-center gap-[1.2rem] text-[1.6rem] md:text-[1.3rem] text-[#003CA5]"
-                          to={`/services/s/:id/:slug`}
+                          to={`/service/${item.id}/${item_slug}`}
                         >
                           {ml(
                             item?.link_az || "",
