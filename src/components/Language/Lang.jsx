@@ -14,7 +14,10 @@ function Lang({ toggle, swichLang }) {
   }, [curretLang]);
   return (
     <>
-      <div onClick={() => setArrowUp(!arrowUp)} className="relative text-[#000000]">
+      <div
+        onClick={() => setArrowUp(!arrowUp)}
+        className="relative text-[#000000]"
+      >
         <div
           className="flex gap-[9px] items-center cursor-pointer"
           onClick={toggle}

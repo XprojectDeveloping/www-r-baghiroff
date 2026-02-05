@@ -44,7 +44,7 @@ function Header() {
         className={`bg-[#F4F6F6] ${scroll ? "fixed top-0 left-0 right-0 z-[2000]" : ""}`}
       >
         <div
-          className={`max-w-[1200px] m-auto py-[3rem] md:py-[2.5rem] lg:px-[4rem] md:px-[4rem] sm:px-[2rem] xs:px-[1.8rem] transition_css flex justify-between items-center ${scroll ? "!py-[2rem]" : ""}`}
+          className={`max-w-[1200px] m-auto py-[3rem] md:py-[2.5rem] xl:px-[5rem] lg:px-[4rem] md:px-[4rem] sm:px-[2rem] xs:px-[1.8rem] transition_css flex justify-between items-center ${scroll ? "!py-[2rem]" : ""}`}
         >
           <div className="">
             <Link to="/">
@@ -73,7 +73,7 @@ function Header() {
                 );
               })}
           </div>
-          <div className="flex items-center gap-[3.2rem] lg:gap-[1.3rem]">
+          <div className="flex items-center gap-[3.2rem] xl:gap-[1rem] lg:gap-[1.3rem]">
             <div className="bg-[#EAEDED] p-[8px] cursor-pointer">
               <img
                 src={data?.header?.headerSearchIco?.src}
