@@ -23,34 +23,36 @@ function Burgermenu(params) {
       )}
       <div
         className={`
-          fixed top-0 right-0 h-full w-[350px] bg-[#808080]
+          fixed top-0 left-0 w-full bg-[#ffffff]
           p-[2rem] flex flex-col gap-[2rem]
           z-[1050] transition-transform duration-300
           text-[2rem]
-          ${open ? "translate-x-0" : "translate-x-full"}
+          ${open ? "translate-y-0" : "-translate-y-full"}
         `}
       >
-        <button onClick={closeMenu}>
+        <button className="flex justify-end" onClick={closeMenu}>
           <img src={headerBurgerMenuClose} className="max-w-[3rem]" alt="ico" />
         </button>
 
-        {data?.header?.headerLinks &&
-          data?.header?.headerLinks?.map((item, index) => {
-            return (
-              <NavLink
-                className="text-[#ffffff] text-[1.4rem]"
-                key={item.id || index}
-                to={item?.to}
-                onClick={closeMenu}
-              >
-                {ml(
-                  item?.link_az || "",
-                  item?.link_ru || "",
-                  item?.link_en || "",
-                )}
-              </NavLink>
-            );
-          })}
+        <div className="flex flex-col justify-center items-center gap-[3rem]">
+          {data?.header?.headerLinks &&
+            data?.header?.headerLinks?.map((item, index) => {
+              return (
+                <NavLink
+                  className="text-[#002755] text-[1.8rem]"
+                  key={item.id || index}
+                  to={item?.to}
+                  onClick={closeMenu}
+                >
+                  {ml(
+                    item?.link_az || "",
+                    item?.link_ru || "",
+                    item?.link_en || "",
+                  )}
+                </NavLink>
+              );
+            })}
+        </div>
       </div>
     </>
   );

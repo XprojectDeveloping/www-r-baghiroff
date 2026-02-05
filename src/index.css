@@ -108,6 +108,7 @@ img {
   }
 }
 
+
 .inputs input {
   border: 1px solid #bfc8ca;
   outline: none;
@@ -131,7 +132,6 @@ select {
   -moz-appearance: none;
 }
 
-
-.fixed-trans{
+.fixed-trans {
   transition: 0.3 linear;
 }

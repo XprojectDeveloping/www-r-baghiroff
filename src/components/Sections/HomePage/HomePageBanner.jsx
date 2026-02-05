@@ -12,7 +12,7 @@ function HomePageBanner({
       <div className="relative w-full h-full overflow-hidden">
         <div className="banner-bg">
           <img
-            className="w-full h-[60rem] lg:h-[50rem] md:h-[45rem] sm:h-[35rem] object-cover"
+            className="s-img w-full h-[60rem] lg:h-[50rem] md:h-[45rem] sm:h-[35rem] xs:h-[20rem] object-cover"
             src={bannerImg}
             alt={alt}
           />
@@ -22,7 +22,7 @@ function HomePageBanner({
           </h1>
         </div>
       </div>
-      <div className="relative max-w-[1200px] m-auto lg:px-[4rem] md:px-[2rem] sm:px-[1.7rem] my-[8rem] lg:my-[4rem] md:my-[2rem]">
+      <div className="relative max-w-[1200px] m-auto lg:px-[4rem] md:px-[2rem] sm:px-[1.8rem] my-[8rem] lg:my-[4rem] md:my-[2rem]">
         <div className="absolute -top-[19rem] right-10 ">
           <img
             className="max-w-[20rem] lg:hidden"
