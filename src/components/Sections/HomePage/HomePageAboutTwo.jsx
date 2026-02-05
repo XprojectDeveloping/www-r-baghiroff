@@ -3,7 +3,7 @@ function HomePageAboutTwo({ title, text, dataCard }) {
     <>
       <div className="max-w-[1200px] m-auto lg:px-[4rem] md:px-[2rem] sm:px-[1.5rem]">
         <div className="pt-[8rem] lg:pt-0">
-          <h3 className="font-bold text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] text-[#011E41] mb-[4rem] lg:mb-[2rem]">
+          <h3 className="font-bold text-[4.8rem] lg:text-[3.8rem] md:text-[2.8rem] sm:text-[2.5rem] text-[#011E41] mb-[4rem] lg:mb-[2rem]">
             {title}
           </h3>
 
